@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<HTMl>
+
+<HEAd>
+    <!--This site have been created by David Yakin-->
+    <!--last update 24.12.2019 By David Yakin-->
+    <meta charset="UTF-8">
+    <meta name="Description" content="This is DAVID YAKIN HTML website. 
+        Here you will be able to see his works and watch full movies he has directed, 
+        written and produced">
+    <meta name="author" content="David Yakin">
+    <meta name="keywords"
+        content="David, Yakin, HTML, website, movie, docomentary, chronicle of repression, total control, the heart braker, thing you see">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAVID YAKIN</title>
+    <link rel="shortcut icon" href="img/logo.jpeg">
+    <link rel="stylesheet" href="CSS/main.css">
+
+</HEAd>
+
+<body>
+
+<!-- 
+
+
+-->    
+   <!-- Start point for start menu --> 
+    <header>
+        <div class="logo"><a href="index.html"><img src="img/logo.png" alt="david yakin logo"></a></div>
+
+        <nav calss="nav">
+            <ul>
+                <li><a href="index.html" id="linkherf"><b> HOME</b></a></li>
+                <li><a href="#featur" id="linkherf"><b>FEATUR</b></a></li>
+                <li><a href="#sorts" id="linkherf"><b>SHORTS</b></a></li>
+                <li><a href="#docomentary" id="linkherf"><b>DOCOMENTARY</b></a></li>
+                <li><a href="#jornalism" id="linkherf"><b>JORNALISM</b></a></li>
+                <li><a href="#advertisments" id="linkherf"><b>ADVERTISEMENTS</b></a></li>
+                <li><a href="#bio" id="linkherf"><b>BOI</b></a></li>
+                <li><a href="#contact" id="linkherf"><b>CONTACT</b></a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- opening screen -->
+    <main class="v-main">
+        <div class="fullscreen-video">
+            <video src="video/Reoression.mp4" autoplay loop muted></video>
+        </div>
+
+        <div class="main-content">
+            <h1 class="wight_color_text">DAVID YAKIN</h1>
+            <h2>PRODUCER / DERECTOR / PHOTOGRAGER</h2>
+        </div>
+    </main>
+
+    <!-- Chronicle of repression page -->
+
+    <a name="featur"></a>
+    <section class="chronicle">
+        <div><a href="HTML/chronicle_trailer.html"><img class="chronicle_img"
+                    src="img/Chronicle Of Repression small.jpg"
+                    alt="
+                The poster of the featur film Chronicle of repression clicking on it will link to the movie trailer"></a></div>
+
+        <article class="chronicle_text">
+            <h1>
+                <a href="chronicle_trailer.html">FEATUR FILM</a>
+            </h1>
+            <hr />
+            <h2>
+                <a href="chronicle_trailer.html">CHRONICLE OF REPRESSION</a>
+            </h2>
+            <p>
+                <a href="chronicle_trailer.html"> Chronical of Repression is a psychological thriller about Rafi,
+                    a pharmaceutical company scientist, who is urgently called to pick his wife from the hospital after
+                    suffering a violent rape.
+                    When they come home, she locks herself in the bathroom and Rafi steps out for a breath of air.
+                    Upon his return, he discovers that his wife disappeared and he sets out looking for her.
+                    During his question, Rafi discovers sides that he had not known about his wife and realizes that,
+                    in order to find her, he will first have to solve the mystery that she was obsessed about.</a>
+                <hr />
+                <a href="chronicle_trailer.html">
+                    <h1>89 minutes</h1>
+                </a>
+                <hr />
+                <a href="chronicle_trailer.html"><b><ins> Watch the trailer</ins></b></a>
+            </p>
+        </article>
+    </section>
+
+    <a name="sorts"></a>
+    <section class="sorts">
+        <div class="d1">
+            <h1><ins>SHORTS</ins></h1>
+        </div>
+        <div class="container">
+            <div><a href="HTML/the_heart_braker.html"><img class="img_sorts" src="img/the heart braker.jpg"
+                        alt="A short movie marketing poster called The Heartbreaker. Clicking on the image will lead to a page where you can watch the full movie"></a>
+            </div>
+            <div><a href="HTML/Total_control.html"><img class="img_sorts" src="img/total control.jpg"
+                        alt="A short movie marketing poster called Total control. Clicking on the image will lead to a page where you can watch the full movie"></a>
+            </div>
+            <div><a href="HTML/Things.html"><img class="img_sorts" src="img//things you see.jpg"
+                        alt="A short movie marketing poster called Things you see. Clicking on the image will lead to a page where you can watch the full movie"></a>
+            </div>
+            <div><a href="HTML/the_heart_braker.html">
+                    <h2>THE HEART BRAKER</h2>
+                </a></div>
+            <div><a href="HTML/Total_control.html">
+                    <h2>TOTAL CONTROL</h2>
+                </a></div>
+            <div><a href="HTML/Things.html">
+                    <h2>THINGS YOU SEE</h2>
+                </a></div>
+        </div>
+    </section>
+
+    <a name="docomentary"></a>
+    <section class="docomentary">
+        <div>
+            <h1><ins>DOCOMENTARY</ins></h1>
+        </div>
+        <div class="container">
+            <div><a href="HTML/eli_debi.html"><img class="img_sorts" src="img/eli debbi.jpg"
+                        alt="A marketing poster for the docomentary eliyahu debi. Clicking on the image will lead to a page where you can watch the full movie"></a>
+            </div>
+            <div><a href="HTML/david.html"><img class="img_sorts" src="img/david yakin.jpg"
+                        alt="A marketing poster for the docomentary David Yakin. Clicking on the image will lead to a page where you can watch the full movie"></a>
+            </div>
+            <div><a href="HTML/Ami_bergman.html"><img class="img_sorts" src="img/ami bergman.jpg"
+                        alt="A marketing poster for the docomentary about ami bergman. Clicking on the image will lead to a page where you can watch Six minutes tizer of the full movie"></a>
+            </div>
+            <div><a href="HTML/eli_debi.html">
+                    <h2>ELIAHU DEBBI</h2>
+                </a></div>
+            <div><a href="HTML/david.html">
+                    <h2>DAVID YAKIN</h2>
+                </a></div>
+            <div><a href="HTML/Ami_bergman.html">
+                    <h2>AMI BERGMAN</h2>
+                </a></div>
+        </div>
+    </section>
+
+    <a name="jornalism"></a>
+    <section class="jornalism-container">
+
+        <div class="elize-video-container">
+            <video autoplay loop muted src="video/ELIZE.2.mov"></video></div>
+
+        <div class="jornalism-video-container">
+            <div>
+                <h1 style="color: white; padding: 20px 0px 0px 0px;"><ins>JORNALISM</ins></h1>
+            </div>
+            <div class="jornalism_grid">
+                <div class="jornalism_video"><iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/DuZoqxXcO4A" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="jornalism_video"><iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/GRphNet34R8" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="jornalism_video"><iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/lE39-9IsmP4" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="jornalism_video"><iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/mCZMXOJCT6U" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="jornalism_video"><iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/X9WKSjBmcGA" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="jornalism_video"><iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/BCxdhiKJy80" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+            </div>
+        </div>
+    </section>
+
+    <a name="advertisments"></a>
+    <section class="ADVERTISEMENTS-container">
+        <div>
+            <div>
+                <h1><ins>ADVERTISEMENTS</ins></h1>
+            </div>
+
+            <div class="ADVERTISEMENTS-video-grid">
+                <div class="ADVERTISEMENTS_video"><iframe width="689.7" height="415.8"
+                        src="https://www.youtube.com/embed/hMM7cSSsu3Y" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="ADVERTISEMENTS_video"><iframe width="689.7" height="415.8"
+                        src="https://www.youtube.com/embed/tNE4YvxEwc8" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+            </div>
+        </div>
+    </section>
+
+    <a name="bio"></a>
+    <section class="david-grid">
+        <div class="david_text">
+            <h1>
+                BIO
+            </h1>
+            <hr />
+            <p>
+                David Yakin is a graduate of the “Camera Obscura” school of film.
+                Since graduating in 2012, he produced and directed three documentaries and one feature film.
+                David honed his field production and photography skills while shooting dozens of magazine pieces
+                and two documentary films for the international i24news channel.
+                He also shot a documentary named “A Certificate of Identity”,
+                which won first place at the 2012 DocAviv Film Festival.
+                David also took part in two WZO projects and conducted over 150 interviews with soldiers of Israeli
+                underground organizations,
+                the War of Independence and 6-Day War. In addition,
+                David served as the Head of Marketing Media at Sforweel Ltd,
+                where he produced and directed promotional films.
+            </p>
+        </div>
+        <div class="david_img_bio"></div>
+    </section>
+
+    <a name="contact"></a>
+    <footer class="footer-container">
+        <h1>CONTACT</h1>
+        <p>
+            <a href="mailto:david.yakin@gmail.com"
+                style="text-decoration: none; color: white;">david.yakin@gmail.com</a>
+            Tel: +972-50-7233332
+        </p>
+        <div class="facebooklogo">
+            <a target="_blank" href="https://www.facebook.com/david.yakin.75"><img src="img/facebook.png"
+                    style="width: 50px;"></a>
+            <a target="_blank" href="#"><img src="img/instagram.png" style="width: 50px;"></a>
+        </div>
+    </footer>
+</body>
+
+</HTMl>
