@@ -119,3 +119,30 @@ position: relative;
 footer{
     background-color: #414141;
 }
+
+.next-arrow{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+}
+.next-arrow:hover{
+    color: black;
+    cursor: pointer;
+}
+.prev-arrow{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+}
+.prev-arrow:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.shorts{
+    position: relative;
+}
+.docomentary{
+    position: relative;
+}
+

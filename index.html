@@ -15,7 +15,14 @@
     <link rel="shortcut icon" href="img/logo.jpeg">
     <link rel="stylesheet" href="CSS/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- slick js -->
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script defer src="./JS/main.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./JS/validation.js"></script>
+    <script src="./JS/slick-carusel.js"></script>
     <title>DAVID YAKIN</title>
 </HEAd>
 
@@ -127,7 +134,38 @@
                 </div>
             </div>
     
-            <div class="row justify-content-between pt-4">
+            <div class="d-block d-md-none sort-slick">
+    
+                <div class="card border-0 col-12 col-md-6 col-xl-4 bg-transparent bg-transparent">
+                    <img class="card-img-top" src="img/the heart braker.jpg"
+                            alt="A short movie marketing poster called The Heartbreaker">
+                            <div class="card-body">
+                                <h5 class="card-title center text-white">THE HEART BRAKER</h5>
+                              </div>
+                </div>
+    
+                <div class="card border-0 col-12 col-md-6 col-xl-4 bg-transparent ">
+                    <img class="card-img-top" src="img/total control.jpg"
+                            alt="A short movie marketing poster called Total control">
+                            <div class="card-body">
+                                <h5 class="card-title center text-white">TOTAL CONTROL</h5>
+                              </div>
+                </div>
+    
+                <div class="card border-0 col-12 col-md-6 col-xl-4 bg-transparent">
+                    <img class="card-img-top" src="img//things you see.jpg"
+                            alt="A short movie marketing poster called Things you see">
+                            <div class="card-body">
+                                <h5 class="card-title center text-white">THINGS YOU SEE</h5>
+                              </div>
+                </div>
+
+                
+            </div>
+            <div class="d-block d-md-none next-arrow fs-1 btn-outline-light p-2 rounded">&#187;</div>
+            <div class="d-block d-md-none prev-arrow fs-1 btn-outline-light p-2 rounded">&#171;</div>
+
+            <div class="d-none d-md-flex row justify-content-between pt-4">
     
                 <div class="card border-0 col-12 col-md-6 col-xl-4 bg-transparent bg-transparent">
                     <img class="card-img-top" src="img/the heart braker.jpg"
@@ -154,6 +192,7 @@
                 </div>
     
             </div>
+
         </section>
     </div>
 
@@ -168,7 +207,37 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="d-block d-md-none sort-slick">
+
+            <div class="card border-0 col-12 col-md-6 col-xl-4 bg-transparent">
+                <img class="card-img-top" src="img/eli debbi.jpg"
+                        alt="A marketing poster for the docomentary eliyahu debi.">
+                        <div class="card-body">
+                            <h5 class="card-title center">ELIAHU DEBBI</h5>
+                          </div>
+            </div>
+
+            <div class="card border-0 col-12 col-md-6 col-xl-4 bg-transparent">
+                <img class="card-img-top" src="img/david yakin.jpg"
+                        alt="A marketing poster for the docomentary David Yakin.">
+                        <div class="card-body">
+                            <h5 class="card-title center">DAVID YAKIN</h5>
+                          </div>
+            </div>
+
+            <div class="card border-0 col-12 col-md-6 col-xl-4 bg-transparent">
+                <img class="card-img-top" src="img/ami bergman.jpg"
+                        alt="A marketing poster for the docomentary about ami bergman.">
+                        <div class="card-body">
+                            <h5 class="card-title center">AMI BERGMAN</h5>
+                          </div>
+            </div>
+
+        </div>
+        <div class="d-block d-md-none next-arrow fs-1 btn-outline-light p-2 rounded">&#187;</div>
+        <div class="d-block d-md-none prev-arrow fs-1 btn-outline-light p-2 rounded">&#171;</div>
+  
+        <div class="d-none d-md-flex row">
 
             <div class="card border-0 col-12 col-md-6 col-xl-4 bg-transparent">
                 <img class="card-img-top" src="img/eli debbi.jpg"
@@ -242,34 +311,38 @@
 
     <div class="center">
       
-        <form action="MAILTO:e.goldman@hackeru.co.il"
+        <form 
+         
           autocomplete='off' 
           method='POST' 
           class="row col-12 col-md-10 col-xl-6 px-0"
           enctype="text/plain">
 
             <div class='p-2 col-6'>
-                <input class="form-control m-0 border border-dark" type="text" placeholder="first name" required>
+                <input id="name-id" class="form-control m-0 border border-dark" type="text"  placeholder="first name" required >
+                <span id="name-span"></span>
             </div>
             <div class="p-2 col-6">
-                <input class="form-control m-0 border border-dark" type="text" placeholder="last name" required>
+                <input id="last-id" class="form-control m-0 border border-dark" type="text" placeholder="last name" required>
+                <span id="last-span"></span>
             </div>
             <div class="p-2 col-6">
-                <input class="form-control m-0 border border-dark" type="email" placeholder="mail" required>
-               
+                <input id="mail-id" class="form-control m-0 border border-dark" type="email" placeholder="mail" required>
+                <span id="mail-span"></span>
             </div>
             <div class="p-2 col-6">
-                <input class="form-control m-0 border border-dark" type="tel" placeholder="phone" required>
-                
+                <input id="tel-id" class="form-control m-0 border border-dark" type="number" placeholder="phone" required>
+                <span id="tel-span"></span>
             </div>
             
            <div class="p-2 col-12">
-            <input class="form-control m-0 border border-dark" type="text" placeholder="subject" required>
+            <input id="subject-id" class="form-control m-0 border border-dark" type="text" placeholder="subject" required>
           
            </div>
 
            <div class="p-2 col-12">
                 <textarea 
+                id="mas-id"
                     type="text" 
                     name="message" 
                     class="form-control text-rtl border border-dark"
@@ -279,8 +352,11 @@
            </div>
 
            <div class="p-2 col-12 mb-4">
-               <button class="btn btn-outline-dark pb-3 border border-dark w-100" type="submit">Send</button>
-             
+               <button class="btn btn-outline-dark pb-3 border border-dark w-100" onclick="onSubClick(event)" type="submit">Send</button>
+               
+               <div class="center pt-2">
+                   <span id="btn-id"></span>
+               </div>
            </div>
            
         </form>
