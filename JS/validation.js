@@ -30,10 +30,10 @@ function onSubClick(event) {
 
         Email.send({
         Host : "smtp.gmail.com",
-        Username : "e.goldman@hackeru.co.il",
+        Username : "example@gmail.com",
         Password : "",
-        To : 'e.goldman@hackeru.co.il',
-        From : "e.goldman@hackeru.co.il",
+        To : 'example@gmail.com',
+        From : "example@gmail.com",
         Subject : `Mail from: ${firstName} ${lastName}`,
         Body : "Thank you for filling out the form"
     }).then(
