@@ -9,3 +9,14 @@ $(document).ready(function(){
   }); 
 })
 
+$(document).ready(function(){
+       $('.slick-doc').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    prevArrow: '.prev-arrow-doc',
+    nextArrow: '.next-arrow-doc',
+  }); 
+})
+

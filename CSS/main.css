@@ -120,6 +120,9 @@ footer{
     background-color: #414141;
 }
 
+
+
+
 .next-arrow{
     position: absolute;
     top: 50%;
@@ -139,9 +142,32 @@ footer{
     cursor: pointer;
 }
 
+
+
+
+.next-arrow-doc{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+}
+.next-arrow-doc:hover{
+    color: black;
+    cursor: pointer;
+}
+.prev-arrow-doc{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+}
+.prev-arrow-doc:hover{
+    color: black;
+    cursor: pointer;
+}
+
 .shorts{
     position: relative;
 }
+
 .docomentary{
     position: relative;
 }
