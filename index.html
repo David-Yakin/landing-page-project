@@ -337,7 +337,7 @@
             
            <div class="p-2 col-12">
             <input id="subject-id" class="form-control m-0 border border-dark" type="text" placeholder="subject" required>
-          
+            <span id="subject-span"></span>
            </div>
 
            <div class="p-2 col-12">
@@ -348,9 +348,10 @@
                     class="form-control text-rtl border border-dark"
                     placeholder="message" 
                     rows="5">
-                </textarea>                               
+                </textarea>  
+                <span id="mes-span"></span>                             
            </div>
-
+           
            <div class="p-2 col-12 mb-4">
                <button class="btn btn-outline-dark pb-3 border border-dark w-100" onclick="onSubClick(event)" type="submit">Send</button>
                
